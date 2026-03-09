@@ -1,0 +1,8 @@
+[project]
+name = "api-synth"
+version = "0.1.0"
+description = "API-spec-driven benchmark task synthesis toolkit"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
